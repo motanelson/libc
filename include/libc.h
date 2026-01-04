@@ -1,8 +1,8 @@
 //extern int writess;
 extern void _start();
-extern int putss(char *c);
+extern void putss(char *c);
 //extern int fputss;
-extern int exitss(int c);
+extern void exitss(int c);
 /*extern int strlens
 extern int strcps
 extern int strcats
