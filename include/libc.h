@@ -1,0 +1,25 @@
+//extern int writess;
+extern void _start();
+extern int putss(char *c);
+//extern int fputss;
+extern int exitss(int c);
+/*extern int strlens
+extern int strcps
+extern int strcats
+extern int strncps
+extern int memcps
+extern int prints
+extern int memfills
+extern int getout
+extern int getin
+extern int fgetss
+extern int creatss
+extern int closess
+extern int strchrreplace
+extern int openss
+extern int getreadss
+extern int getwritess
+extern int getreadwritess
+extern int clearss
+extern int getesp
+*/
