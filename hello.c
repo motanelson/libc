@@ -1,4 +1,4 @@
-//gcc -m32 -nostdlib -I./include ./lib/libc.o ./lib/crt.o hello.c -o hello
+//gcc -m32 -nostdlib -fno-pie -no-pie -I./include ./lib/libc.o ./lib/crt.o hello.c -o hello
 #include<libc.h>
 
 int main(){
