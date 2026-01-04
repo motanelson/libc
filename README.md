@@ -1,0 +1,2 @@
+# libc
+simply lib c
