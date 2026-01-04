@@ -1,10 +1,6 @@
 #as -32 -o libc.o libc.asm
 .intel_syntax noprefix
-.extern main
-.global starts
-.global _starts
-.global _exits
-.global writess
+.global writes
 .global putss
 .global fputss
 .global exitss
@@ -409,15 +405,9 @@ strs:
              mov [edi],al       
              pop ebp
              ret
-starts:
+
 nop            
-_starts:
-    call main
-_exits:    
-    push eax
-    call exitss
-    add esp,4
-    ret
+ret
 .data
 hello: 
 .ascii "\x1b[40;37mhello world.\n\0"
@@ -436,3 +426,6 @@ enters:
 .word 10
 clearsss:
 .ascii "\x1bc\0"
+.bss
+
+
