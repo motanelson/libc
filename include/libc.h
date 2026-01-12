@@ -19,6 +19,7 @@ extern int strchrreplace(char *c,char cc,char ccc);
 extern int creatss(char *c,int a);
 extern void closess(int i);
 extern int openss(char *c,int i, int ii);
+extern void strs(int i,char *x);
 /*
 extern int getreadss();
 extern int getwritess();
