@@ -13,7 +13,7 @@ extern int strlens(char *c);
 extern void fputss(char *c,int f);
 extern int getout();
 extern int getin();
-
+extern void fgetss(char *c,int i,int f);
 /*
 
 
