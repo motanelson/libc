@@ -6,10 +6,11 @@ extern void putss(char *c);
 extern void exitss(int c);
 extern int strcats(char *c,char *cc);
 extern int strcps(char *c,char *cc);
+extern int strncps(char *c,char *cc,int i);
+
+
 /*
 extern int strlens
-extern int strcats
-extern int strncps
 extern int memcps
 extern int prints
 extern int memfills
