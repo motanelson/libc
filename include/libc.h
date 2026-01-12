@@ -14,10 +14,11 @@ extern void fputss(char *c,int f);
 extern int getout();
 extern int getin();
 extern void fgetss(char *c,int i,int f);
+extern void clearss();
 /*
 
 
-extern int fgetss
+
 extern int creatss
 extern int closess
 extern int strchrreplace
@@ -25,7 +26,7 @@ extern int openss
 extern int getreadss
 extern int getwritess
 extern int getreadwritess
-extern int clearss
+
 extern int getesp
 */
 
