@@ -1,6 +1,6 @@
 #as -32 -o libc.o libc.asm
 .intel_syntax noprefix
-.global writes
+.global writess
 .global putss
 .global fputss
 .global exitss
