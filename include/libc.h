@@ -1,3 +1,4 @@
+int main();
 //extern int writess;
 extern void _start();
 extern void putss(char *c);
@@ -23,3 +24,11 @@ extern int getreadwritess
 extern int clearss
 extern int getesp
 */
+
+
+
+void _start(){
+    int a=main();
+    exitss(a);
+
+}
