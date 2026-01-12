@@ -7,7 +7,7 @@ extern void exitss(int c);
 extern int strcats(char *c,char *cc);
 extern int strcps(char *c,char *cc);
 extern int strncps(char *c,char *cc,int i);
-
+extern int memcps(char *c,char *cc,int i);
 
 /*
 extern int strlens
