@@ -4,7 +4,7 @@ extern void _start();
 extern void putss(char *c);
 //extern int fputss;
 extern void exitss(int c);
-
+extern int strcats(char *c,char *cc);
 extern int strcps(char *c,char *cc);
 /*
 extern int strlens
