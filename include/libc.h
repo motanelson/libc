@@ -15,6 +15,7 @@ extern int getout();
 extern int getin();
 extern void fgetss(char *c,int i,int f);
 extern void clearss();
+extern int strchrreplace(char *c,char cc,char ccc);
 /*
 
 
