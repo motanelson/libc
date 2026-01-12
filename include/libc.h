@@ -1,4 +1,4 @@
-int main(int argc, char *argv[]);
+int main();
 extern void _start();
 extern void putss(char *c);
 extern void writess(char *c,int i,int f);
@@ -32,18 +32,8 @@ static inline void get_argc_argv(int *argc, char ***argv) {
 }
 
 void _start(){
-    int argc;
-    char **argv;
+    int i=main();
 
-    __asm__ __volatile__ (
-        "mov (%%esp), %0\n\t"   // argc = *esp
-        "lea 4(%%esp), %1\n\t"  // argv = esp + 4
-        : "=r"(argc), "=r"(argv)
-        :
-        : "memory"
-    );
-
-    int ret = main(argc, argv);
-    exitss(ret);
+    exitss(i);   
 
 }
