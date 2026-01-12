@@ -8,11 +8,10 @@ extern int strcats(char *c,char *cc);
 extern int strcps(char *c,char *cc);
 extern int strncps(char *c,char *cc,int i);
 extern int memcps(char *c,char *cc,int i);
-
+extern int prints(char *c);
 /*
 extern int strlens
-extern int memcps
-extern int prints
+
 extern int memfills
 extern int getout
 extern int getin
