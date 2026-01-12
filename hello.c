@@ -6,8 +6,3 @@ int main(){
     
     return 0;
 }
-void _start(){
-    int a=main();
-    exitss(a);
-
-}
