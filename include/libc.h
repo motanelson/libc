@@ -4,8 +4,10 @@ extern void _start();
 extern void putss(char *c);
 //extern int fputss;
 extern void exitss(int c);
-/*extern int strlens
-extern int strcps
+
+extern int strcps(char *c,char *cc);
+/*
+extern int strlens
 extern int strcats
 extern int strncps
 extern int memcps
