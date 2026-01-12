@@ -16,19 +16,14 @@ extern int getin();
 extern void fgetss(char *c,int i,int f);
 extern void clearss();
 extern int strchrreplace(char *c,char cc,char ccc);
+extern int creatss(char *c,int a);
+extern void closess(int i);
+extern int openss(char *c,int i, int ii);
 /*
-
-
-
-extern int creatss
-extern int closess
-extern int strchrreplace
-extern int openss
-extern int getreadss
-extern int getwritess
-extern int getreadwritess
-
-extern int getesp
+extern int getreadss();
+extern int getwritess();
+extern int getreadwritess();
+extern int getesp();
 */
 
 
